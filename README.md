@@ -3,7 +3,7 @@
 #### just import mediapipe(Free & Open Source)
 
 ## sample image
-![Sampleimage](./img/photo7.jpg)
+![Sampleimage](./img/markdown.JPG)
 
 
 ## result (+ landmark points number)
