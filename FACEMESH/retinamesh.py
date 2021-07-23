@@ -31,8 +31,5 @@ with faceModule.FaceMesh(static_image_mode=True) as face:
 
     cv2.imshow('Test image', image)
 
-    #[(283번 x좌표 - 295번 x좌표) + (385번 x좌표 - 387번 x좌표) * (295번 y좌표 - 387번 y좌표)] / 2
-
-    print((abs(point[283][0] - point[295][0])+abs(point[387][0]-point[385][0]) * abs(point[295][1]-point[387][1]))/2)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
